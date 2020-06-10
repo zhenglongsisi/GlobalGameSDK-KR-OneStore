@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.xinkuai.globalsdk.example">
+
+    <application
+        android:name=".App"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!--新快SDK AppId-->
+        <meta-data
+            android:name="XK_APP_ID"
+            android:value="21" />
+
+        <!--新快SDK AppKey-->
+        <meta-data
+            android:name="XK_APP_KEY"
+            android:value="8xb3h8hzctal17q4x6ovw7rlunnyo8mo" />
+
+        <!--Facebook AppId-->
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="fb381226635885383" />
+
+        <!--Facebook 分享配置-->
+        <provider
+            android:name="com.facebook.FacebookContentProvider"
+            android:authorities="com.facebook.app.FacebookContentProvider381226635885383"
+            android:exported="true" />
+
+        <!--AppsFlyer DevKey-->
+        <!--<meta-data
+            android:name="AF_DEV_KEY"
+            android:value="${AF_DEV_KEY}" />-->
+
+        <!--KaKao AppKey-->
+        <meta-data
+            android:name="com.kakao.sdk.AppKey"
+            android:value="88f0564411e4589ff3aafb2a007d4ec3" />
+        <!--Naver AppId-->
+        <meta-data
+            android:name="NAVER_APP_ID"
+            android:value="PY8LSoqOPgxJWo6MTLeq" />
+        <!--Naver AppKey-->
+        <meta-data
+            android:name="NAVER_APP_KEY"
+            android:value="tx1css131W" />
+        <!--OneStore App公钥-->
+        <meta-data
+            android:name="ONE_STORE_PUB_KEY"
+            android:value="MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCAvhGrZbnTsg/8f+z0XQOr05NtQ7z6zi++C6d9yOLZ1DS9WS2Jib5tyJFQnRLiDmKgE5bzF522/oFsb+NanWg9DSo2j0GWxi34HuYkJcYAlsoRjfE/h/pcbZEgL/X2yVkKAtVfrsiKwE5bWoG81LpL8HZhQj/t6FzWUvGVXvBOYQIDAQAB" />
+
+    </application>
+
+</manifest>
