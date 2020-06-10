@@ -1,1 +1,1 @@
-# Example of korea onestore SDK.
+# 韩国OneStore版本SDK接入示例
